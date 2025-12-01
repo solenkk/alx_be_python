@@ -38,17 +38,3 @@ class BankAccount:
     def display_balance(self):
         """Display the current account balance in a user-friendly format."""
         print(f"Current Balance: ${self.account_balance}")
-
-
- - [Got]
-Current Balance: $250
-
-(22 chars long)
-[stderr]: 
-(0 chars long)
-[Expected]
-Current Balance: $250.00
-
-(25 chars long)
-[stderr]: [Anything]
-(0 chars long)
