@@ -36,5 +36,6 @@ class BankAccount:
         return False
     
     def display_balance(self):
-        """Display the current account balance in a user-friendly format."""
-        print(f"Current Balance: ${self.account_balance}")
+        """Return the current account balance in a user-friendly format."""
+        # Return the string so main-0.py can print it
+        return f"Current Balance: ${self.account_balance}"
