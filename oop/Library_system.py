@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-Library System demonstrating inheritance and composition in Python.
-Contains Book base class, EBook and PrintBook derived classes,
-and Library class using composition.
-"""
-
 
 class Book:
     """Base class representing a general book."""
@@ -100,5 +94,5 @@ class Library:
             elif isinstance(book, PrintBook):
                 print(f"PrintBook: {book.get_info()}")
             elif isinstance(book, Book):
-                print(f"Book: {book.get_info()}")
+                print(f"Book: {book.get_info()}") 
         print("-" * 40)
