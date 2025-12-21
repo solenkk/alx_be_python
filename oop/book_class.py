@@ -1,4 +1,4 @@
-class Book:
+8class Book:
     """
     A class representing a Book with title, author, and publication year.
     Implements several magic methods for enhanced functionality.
@@ -37,3 +37,4 @@ class Book:
         Returns a string that can recreate the Book instance.
         """
         return f"Book('{self.title}', '{self.author}', {self.year})"
+__init__
