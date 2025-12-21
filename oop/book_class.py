@@ -39,3 +39,21 @@
         return f"Book('{self.title}', '{self.author}', {self.year})"
 __init__
 __del__(self):", "__str__(self):", "__repr__(self):"
+(0 chars long)
+[stderr]: Traceback (most recent call last):
+  File "main.py", line 1, in <module>
+    from book_class import Book
+  File "/tmp/correction/8528401626295299092964343311435850524957_5/100940/1349805/oop/book_class.py", line 1
+    8class Book:
+     ^
+SyntaxError: invalid syntax
+
+(266 chars long)
+[Expected]
+1984 by George Orwell, published in 1949
+Book('1984', 'George Orwell', 1949)
+Deleting 1984
+
+(91 chars long)
+[stderr]: [Anything]
+(0 chars long)
