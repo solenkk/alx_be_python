@@ -38,3 +38,4 @@
         """
         return f"Book('{self.title}', '{self.author}', {self.year})"
 __init__
+__del__(self):", "__str__(self):", "__repr__(self):"
