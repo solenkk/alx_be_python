@@ -23,7 +23,7 @@ class Book:
         """
         print(f"Deleting {self.title}")
     
-    def __str__(self) -> str:
+    def __str__(self):
         """
         Returns a user-friendly string representation of the Book.
         
@@ -32,7 +32,7 @@ class Book:
         """
         return f"{self.title} by {self.author}, published in {self.year}"
     
-    def __repr__(self) -> str:
+    def __repr__(self):
         """
         Returns an official string representation that can recreate the Book instance.
         
